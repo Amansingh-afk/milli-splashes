@@ -1,5 +1,132 @@
 [
-  { "name": "milli-fire", "desc": "MILLI wordmark burning in procedural fire", "author": "amansingh-afk" },
-  { "name": "doomfire", "desc": "Classic PSX DOOM fire, 70x14", "author": "amansingh-afk" },
-  { "name": "hack-matrix", "desc": "HACK revealed by matrix rain", "author": "amansingh-afk" }
+  {
+    "name": "aiface",
+    "desc": "AI face, talking-head loop",
+    "author": "amansingh-afk"
+  },
+  {
+    "name": "attackontitan",
+    "desc": "Attack on Titan tribute",
+    "author": "amansingh-afk"
+  },
+  {
+    "name": "aurora",
+    "desc": "Northern-lights color sweep",
+    "author": "amansingh-afk"
+  },
+  {
+    "name": "badge",
+    "desc": "Spinning milli badge",
+    "author": "amansingh-afk"
+  },
+  {
+    "name": "cactus",
+    "desc": "Chill pixel cactus",
+    "author": "amansingh-afk"
+  },
+  {
+    "name": "catwoman",
+    "desc": "Catwoman portrait loop",
+    "author": "amansingh-afk"
+  },
+  {
+    "name": "chrome",
+    "desc": "Chrome logo spin",
+    "author": "amansingh-afk"
+  },
+  {
+    "name": "dancer",
+    "desc": "Dancing figure",
+    "author": "amansingh-afk"
+  },
+  {
+    "name": "doomfire",
+    "desc": "Classic PSX DOOM fire, 70x14",
+    "author": "amansingh-afk"
+  },
+  {
+    "name": "flyingcat",
+    "desc": "Cat cruising through space",
+    "author": "amansingh-afk"
+  },
+  {
+    "name": "flyingdragon",
+    "desc": "Dragon in flight",
+    "author": "amansingh-afk"
+  },
+  {
+    "name": "hack-matrix",
+    "desc": "HACK revealed by matrix rain",
+    "author": "amansingh-afk"
+  },
+  {
+    "name": "ididnot",
+    "desc": "\"I did not hit her\" meme",
+    "author": "amansingh-afk"
+  },
+  {
+    "name": "lighningtornado",
+    "desc": "Lightning tornado",
+    "author": "amansingh-afk"
+  },
+  {
+    "name": "lights",
+    "desc": "Drifting light streaks",
+    "author": "amansingh-afk"
+  },
+  {
+    "name": "milli-fire",
+    "desc": "MILLI wordmark burning in procedural fire",
+    "author": "amansingh-afk"
+  },
+  {
+    "name": "retrocircle",
+    "desc": "Retro circle tunnel",
+    "author": "amansingh-afk"
+  },
+  {
+    "name": "robot",
+    "desc": "Robot head loop",
+    "author": "amansingh-afk"
+  },
+  {
+    "name": "shader",
+    "desc": "Abstract shader loop",
+    "author": "amansingh-afk"
+  },
+  {
+    "name": "shadertwo",
+    "desc": "Abstract shader loop II",
+    "author": "amansingh-afk"
+  },
+  {
+    "name": "skullone",
+    "desc": "Skull I",
+    "author": "amansingh-afk"
+  },
+  {
+    "name": "skullthree",
+    "desc": "Skull III",
+    "author": "amansingh-afk"
+  },
+  {
+    "name": "skulltwo",
+    "desc": "Skull II",
+    "author": "amansingh-afk"
+  },
+  {
+    "name": "spaceship",
+    "desc": "Spaceship flight",
+    "author": "amansingh-afk"
+  },
+  {
+    "name": "spinner",
+    "desc": "Minimal loading spinner",
+    "author": "amansingh-afk"
+  },
+  {
+    "name": "vibecattwo",
+    "desc": "Vibing cat II",
+    "author": "amansingh-afk"
+  }
 ]
