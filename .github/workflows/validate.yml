@@ -5,12 +5,34 @@ on:
     branches: [main]
   pull_request:
 
+permissions:
+  contents: write
+
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install milli
+        run: npm install --no-save @amansingh-afk/milli
+      - name: Validate .milli files + index
+        run: node scripts/validate-milli.mjs node_modules/@amansingh-afk/milli
+      - name: Generate lua for new .milli submissions
+        run: node scripts/gen-lua.mjs node_modules/@amansingh-afk/milli
       - name: Install neovim
         run: sudo apt-get update && sudo apt-get install -y neovim
       - name: Validate splashes + index
         run: nvim --headless --clean -l scripts/validate.lua
+      - name: Commit generated lua (main only)
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        run: |
+          if [ -n "$(git status --porcelain splashes)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add splashes
+            git commit -m "ci: generate lua splashes from .milli sources"
+            git push
+          fi

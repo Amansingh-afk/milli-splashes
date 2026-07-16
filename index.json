@@ -2,131 +2,313 @@
   {
     "name": "aiface",
     "desc": "AI face, talking-head loop",
-    "author": "amansingh-afk"
+    "author": "amansingh-afk",
+    "cols": 50,
+    "rows": 25,
+    "frames": 62,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
   },
   {
     "name": "attackontitan",
     "desc": "Attack on Titan tribute",
-    "author": "amansingh-afk"
+    "author": "amansingh-afk",
+    "cols": 84,
+    "rows": 37,
+    "frames": 36,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
   },
   {
     "name": "aurora",
     "desc": "Northern-lights color sweep",
-    "author": "amansingh-afk"
+    "author": "amansingh-afk",
+    "cols": 84,
+    "rows": 24,
+    "frames": 140,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
   },
   {
     "name": "badge",
     "desc": "Spinning milli badge",
-    "author": "amansingh-afk"
+    "author": "amansingh-afk",
+    "cols": 50,
+    "rows": 25,
+    "frames": 25,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
   },
   {
     "name": "cactus",
     "desc": "Chill pixel cactus",
-    "author": "amansingh-afk"
+    "author": "amansingh-afk",
+    "cols": 60,
+    "rows": 25,
+    "frames": 25,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
   },
   {
     "name": "catwoman",
     "desc": "Catwoman portrait loop",
-    "author": "amansingh-afk"
+    "author": "amansingh-afk",
+    "cols": 50,
+    "rows": 18,
+    "frames": 9,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
   },
   {
     "name": "chrome",
     "desc": "Chrome logo spin",
-    "author": "amansingh-afk"
+    "author": "amansingh-afk",
+    "cols": 84,
+    "rows": 23,
+    "frames": 131,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
   },
   {
     "name": "dancer",
     "desc": "Dancing figure",
-    "author": "amansingh-afk"
+    "author": "amansingh-afk",
+    "cols": 50,
+    "rows": 19,
+    "frames": 31,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
   },
   {
     "name": "doomfire",
     "desc": "Classic PSX DOOM fire, 70x14",
-    "author": "amansingh-afk"
+    "author": "amansingh-afk",
+    "cols": 70,
+    "rows": 14,
+    "frames": 60,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
   },
   {
     "name": "flyingcat",
     "desc": "Cat cruising through space",
-    "author": "amansingh-afk"
+    "author": "amansingh-afk",
+    "cols": 50,
+    "rows": 19,
+    "frames": 203,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
   },
   {
     "name": "flyingdragon",
     "desc": "Dragon in flight",
-    "author": "amansingh-afk"
+    "author": "amansingh-afk",
+    "cols": 50,
+    "rows": 45,
+    "frames": 9,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
   },
   {
     "name": "hack-matrix",
     "desc": "HACK revealed by matrix rain",
-    "author": "amansingh-afk"
+    "author": "amansingh-afk",
+    "cols": 52,
+    "rows": 11,
+    "frames": 148,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
   },
   {
     "name": "ididnot",
     "desc": "\"I did not hit her\" meme",
-    "author": "amansingh-afk"
+    "author": "amansingh-afk",
+    "cols": 50,
+    "rows": 19,
+    "frames": 200,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
   },
   {
     "name": "lighningtornado",
     "desc": "Lightning tornado",
-    "author": "amansingh-afk"
+    "author": "amansingh-afk",
+    "cols": 50,
+    "rows": 19,
+    "frames": 100,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
   },
   {
     "name": "lights",
     "desc": "Drifting light streaks",
-    "author": "amansingh-afk"
+    "author": "amansingh-afk",
+    "cols": 50,
+    "rows": 25,
+    "frames": 501,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
   },
   {
     "name": "milli-fire",
     "desc": "MILLI wordmark burning in procedural fire",
-    "author": "amansingh-afk"
+    "author": "amansingh-afk",
+    "cols": 64,
+    "rows": 14,
+    "frames": 60,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
   },
   {
     "name": "retrocircle",
     "desc": "Retro circle tunnel",
-    "author": "amansingh-afk"
+    "author": "amansingh-afk",
+    "cols": 50,
+    "rows": 25,
+    "frames": 40,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
   },
   {
     "name": "robot",
     "desc": "Robot head loop",
-    "author": "amansingh-afk"
+    "author": "amansingh-afk",
+    "cols": 60,
+    "rows": 20,
+    "frames": 241,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
   },
   {
     "name": "shader",
     "desc": "Abstract shader loop",
-    "author": "amansingh-afk"
+    "author": "amansingh-afk",
+    "cols": 50,
+    "rows": 25,
+    "frames": 90,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
   },
   {
     "name": "shadertwo",
     "desc": "Abstract shader loop II",
-    "author": "amansingh-afk"
+    "author": "amansingh-afk",
+    "cols": 50,
+    "rows": 25,
+    "frames": 100,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
   },
   {
     "name": "skullone",
     "desc": "Skull I",
-    "author": "amansingh-afk"
+    "author": "amansingh-afk",
+    "cols": 50,
+    "rows": 19,
+    "frames": 152,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
   },
   {
     "name": "skullthree",
     "desc": "Skull III",
-    "author": "amansingh-afk"
+    "author": "amansingh-afk",
+    "cols": 60,
+    "rows": 23,
+    "frames": 152,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
   },
   {
     "name": "skulltwo",
     "desc": "Skull II",
-    "author": "amansingh-afk"
+    "author": "amansingh-afk",
+    "cols": 40,
+    "rows": 20,
+    "frames": 48,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
   },
   {
     "name": "spaceship",
     "desc": "Spaceship flight",
-    "author": "amansingh-afk"
+    "author": "amansingh-afk",
+    "cols": 76,
+    "rows": 24,
+    "frames": 291,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
   },
   {
     "name": "spinner",
     "desc": "Minimal loading spinner",
-    "author": "amansingh-afk"
+    "author": "amansingh-afk",
+    "cols": 50,
+    "rows": 25,
+    "frames": 59,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
   },
   {
     "name": "vibecattwo",
     "desc": "Vibing cat II",
-    "author": "amansingh-afk"
+    "author": "amansingh-afk",
+    "cols": 40,
+    "rows": 25,
+    "frames": 112,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
   }
 ]

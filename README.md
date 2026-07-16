@@ -1,6 +1,11 @@
 # milli-splashes
 
-Community splash registry for [milli.nvim](https://github.com/amansingh-afk/milli.nvim). Install any splash here straight from Neovim:
+Community splash registry for the [milli CLI](https://github.com/Amansingh-afk/milli) and [milli.nvim](https://github.com/amansingh-afk/milli.nvim). Every splash ships in two formats from one canonical source:
+
+- `milli/<name>.milli` — canonical binary, plays anywhere the milli CLI runs (terminal, web, Node)
+- `splashes/<name>.lua` — precompiled for milli.nvim (generated from the `.milli` by CI for new submissions)
+
+**Neovim** — install straight from the editor:
 
 ```
 :MilliBrowse            " list everything
@@ -9,6 +14,13 @@ Community splash registry for [milli.nvim](https://github.com/amansingh-afk/mill
 ```
 
 Installed splashes land in `stdpath("data")/milli/splashes/` and work exactly like bundled ones — same `splash = "name"` API, tab-completion included.
+
+**Terminal** — grab the `.milli` and play it:
+
+```bash
+curl -LO https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/milli/doomfire.milli
+npx @amansingh-afk/milli play doomfire.milli
+```
 
 ## Gallery
 
@@ -37,24 +49,30 @@ Procedural picks (no preview yet):
 
 ## Contributing a splash
 
-1. Make frames with the [milli CLI](https://github.com/Amansingh-afk/milli):
+Submit **one `.milli` file** — CI generates the Neovim Lua from it.
+
+1. Make a `.milli` with the [milli CLI](https://github.com/Amansingh-afk/milli):
 
    ```bash
    # from any image or GIF
-   milli export mycat.gif ./out -t lua -w 60 --no-bg
+   milli convert mycat.gif mycat.milli -w 60
 
    # or generate one procedurally — no source image needed
-   milli text "YOLO" -e glitch -o ./out -t lua
-   milli shader plasma -w 70 -h 16 -o ./out -t lua
+   milli text "YOLO" -e glitch -o ./out -t milli
+   milli shader plasma -w 70 -h 16 -o ./out -t milli
    ```
 
-2. Copy the emitted `.lua` file to `splashes/<name>.lua` (lowercase, `[a-z0-9-_]` only).
-3. Add an entry to `index.json` with `name`, `desc`, `author`.
+2. Copy it to `milli/<name>.milli` (lowercase, `[a-z0-9-_]` only).
+3. Add an entry to `index.json` with `name`, `desc`, `author`, `cols`, `rows`, `frames`
+   (`targets` defaults to both).
 4. Optionally add a `previews/<name>.gif` screen capture (same basename as the splash) —
    it shows up in the gallery above.
-5. Open a PR — CI validates every splash automatically (pure data, frames shape,
-   index consistency). Keep new files under ~1.5 MB (some early splashes are larger;
-   new ones shouldn't be); prefer `-w 80` or narrower so splashes fit dashboards.
+5. Open a PR — CI generates `splashes/<name>.lua`, validates every splash (pure data,
+   frames shape, index consistency), and fails if the `.milli` won't decode. Keep new
+   files under ~1.5 MB; prefer `-w 80` or narrower so splashes fit dashboards.
+
+Already have a `.lua` splash (legacy flow)? Still accepted: drop it in `splashes/` and
+convert it with `scripts/lua2milli.mjs` so both targets stay covered.
 
 Splash files must be **pure data modules** (the exact output of `milli export -t lua`): no `require`, no function calls, no globals. `:MilliInstall` loads candidates in an empty Lua environment and rejects anything that isn't plain frame data.
 
