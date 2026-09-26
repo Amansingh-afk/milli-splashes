@@ -1,21 +1,21 @@
 # milli-splashes
 
-Community splash registry for the [milli CLI](https://github.com/Amansingh-afk/milli) and [milli.nvim](https://github.com/amansingh-afk/milli.nvim). Every splash ships in two formats from one canonical source:
+Community splash registry for the [milli CLI](https://github.com/Amansingh-afk/milli) and [milli.nvim](https://github.com/amansingh-afk/milli.nvim). Every splash has one source and two outputs:
 
-- `milli/<name>.milli` — canonical binary, plays anywhere the milli CLI runs (terminal, web, Node)
-- `splashes/<name>.lua` — precompiled for milli.nvim (generated from the `.milli` by CI for new submissions)
+- `milli/<name>.milli`: the canonical binary. Plays anywhere the milli CLI runs (terminal, web, Node).
+- `splashes/<name>.lua`: precompiled for milli.nvim. CI generates it from the `.milli` for new submissions.
 
-**Neovim** — install straight from the editor:
+Neovim, from inside the editor:
 
 ```
 :MilliBrowse            " list everything
-:MilliInstall doomfire  " download + validate + ready to use
+:MilliInstall doomfire  " download, validate, ready to use
 :MilliPreview doomfire  " watch it
 ```
 
-Installed splashes land in `stdpath("data")/milli/splashes/` and work exactly like bundled ones — same `splash = "name"` API, tab-completion included.
+Installed splashes go to `stdpath("data")/milli/splashes/` and work exactly like bundled ones. Same `splash = "name"` API, tab completion included.
 
-**Terminal** — grab the `.milli` and play it:
+Terminal, grab the `.milli` and play it:
 
 ```bash
 curl -LO https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/milli/doomfire.milli
@@ -45,15 +45,15 @@ npx @amansingh-afk/milli play doomfire.milli
 <tr><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/vibecattwo.gif" width="400"/><br/><code>:MilliInstall vibecattwo</code></td></tr>
 </table>
 
-Procedural picks (no preview yet):
+Procedural ones without a preview yet:
 
-- `doomfire` — Classic PSX DOOM fire, 70x14
-- `hack-matrix` — HACK revealed by matrix rain
-- `milli-fire` — MILLI wordmark burning in procedural fire
+- `doomfire`: classic PSX DOOM fire, 70x14
+- `hack-matrix`: HACK revealed by matrix rain
+- `milli-fire`: MILLI wordmark burning in procedural fire
 
 ## Contributing a splash
 
-Submit **one `.milli` file** — CI generates the Neovim Lua from it.
+Submit one `.milli` file. CI generates the Neovim Lua from it.
 
 1. Make a `.milli` with the [milli CLI](https://github.com/Amansingh-afk/milli):
 
@@ -61,7 +61,7 @@ Submit **one `.milli` file** — CI generates the Neovim Lua from it.
    # from any image or GIF
    milli convert mycat.gif mycat.milli -w 60
 
-   # or generate one procedurally — no source image needed
+   # or generate one procedurally, no source image needed
    milli text "YOLO" -e glitch -o ./out -t milli
    milli shader plasma -w 70 -h 16 -o ./out -t milli
    ```
@@ -69,21 +69,21 @@ Submit **one `.milli` file** — CI generates the Neovim Lua from it.
 2. Copy it to `milli/<name>.milli` (lowercase, `[a-z0-9-_]` only).
 3. Add an entry to `index.json` with `name`, `desc`, `author`, `cols`, `rows`, `frames`
    (`targets` defaults to both).
-4. Optionally add a `previews/<name>.gif` screen capture (same basename as the splash) —
-   it shows up in the gallery above.
-5. Open a PR — CI generates `splashes/<name>.lua`, validates every splash (pure data,
+4. Optional: add `previews/<name>.gif`, a screen capture with the same basename as the splash.
+   It shows up in the gallery above.
+5. Open a PR. CI generates `splashes/<name>.lua`, validates every splash (pure data,
    frames shape, index consistency), and fails if the `.milli` won't decode. Keep new
-   files under ~1.5 MB; prefer `-w 80` or narrower so splashes fit dashboards.
+   files under 1.5 MB. Prefer `-w 80` or narrower so the splash fits a dashboard.
 
-Already have a `.lua` splash (legacy flow)? Still accepted: drop it in `splashes/` and
-convert it with `scripts/lua2milli.mjs` so both targets stay covered.
+Already have a `.lua` splash from the old flow? Still fine. Drop it in `splashes/` and
+convert it with `scripts/lua2milli.mjs` so both targets are covered.
 
-Splash files must be **pure data modules** (the exact output of `milli export -t lua`): no `require`, no function calls, no globals. `:MilliInstall` loads candidates in an empty Lua environment and rejects anything that isn't plain frame data.
+Splash files must be pure data modules, the exact output of `milli export -t lua`. No `require`, no function calls, no globals. `:MilliInstall` loads candidates in an empty Lua environment and rejects anything that isn't plain frame data.
 
 ## Credits
 
 `neovim` uses the Neovim logo by Jason Long, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
-`skullring` is from *Skulls & Snakes* by Nicolas Fong.
+`skullring` is from Skulls & Snakes by Nicolas Fong.
 
 ## License
 
