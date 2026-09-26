@@ -24,13 +24,14 @@ npx @amansingh-afk/milli play doomfire.milli
 
 ## Gallery
 
-31 splashes and counting.
+34 splashes and counting.
 
 <table>
 <tr><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/neovim.gif" width="400"/><br/><code>:MilliInstall neovim</code></td><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/city-rain.gif" width="400"/><br/><code>:MilliInstall city-rain</code></td></tr>
 <tr><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/dna.gif" width="400"/><br/><code>:MilliInstall dna</code></td><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/globe.gif" width="400"/><br/><code>:MilliInstall globe</code></td></tr>
-<tr><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/coffee.gif" width="400"/><br/><code>:MilliInstall coffee</code></td><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/aiface.gif" width="400"/><br/><code>:MilliInstall aiface</code></td></tr>
-<tr><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/attackontitan.gif" width="400"/><br/><code>:MilliInstall attackontitan</code></td></tr>
+<tr><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/coffee.gif" width="400"/><br/><code>:MilliInstall coffee</code></td><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/skullring.gif" width="400"/><br/><code>:MilliInstall skullring</code></td></tr>
+<tr><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/gojo.gif" width="400"/><br/><code>:MilliInstall gojo</code></td><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/goose.gif" width="400"/><br/><code>:MilliInstall goose</code></td></tr>
+<tr><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/aiface.gif" width="400"/><br/><code>:MilliInstall aiface</code></td><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/attackontitan.gif" width="400"/><br/><code>:MilliInstall attackontitan</code></td></tr>
 <tr><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/aurora.gif" width="400"/><br/><code>:MilliInstall aurora</code></td><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/badge.gif" width="400"/><br/><code>:MilliInstall badge</code></td></tr>
 <tr><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/cactus.gif" width="400"/><br/><code>:MilliInstall cactus</code></td><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/catwoman.gif" width="400"/><br/><code>:MilliInstall catwoman</code></td></tr>
 <tr><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/chrome.gif" width="400"/><br/><code>:MilliInstall chrome</code></td><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/dancer.gif" width="400"/><br/><code>:MilliInstall dancer</code></td></tr>
@@ -82,6 +83,7 @@ Splash files must be **pure data modules** (the exact output of `milli export -t
 ## Credits
 
 `neovim` uses the Neovim logo by Jason Long, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
+`skullring` is from *Skulls & Snakes* by Nicolas Fong.
 
 ## License
 
