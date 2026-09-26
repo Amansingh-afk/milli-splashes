@@ -84,12 +84,48 @@
     ]
   },
   {
+    "name": "city-rain",
+    "desc": "Rainy night skyline, windows flicker",
+    "author": "amansingh-afk",
+    "cols": 80,
+    "rows": 22,
+    "frames": 60,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
+  },
+  {
+    "name": "coffee",
+    "desc": "Coffee cup, steam curling",
+    "author": "amansingh-afk",
+    "cols": 40,
+    "rows": 22,
+    "frames": 48,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
+  },
+  {
     "name": "dancer",
     "desc": "Dancing figure",
     "author": "amansingh-afk",
     "cols": 50,
     "rows": 19,
     "frames": 31,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
+  },
+  {
+    "name": "dna",
+    "desc": "Rotating DNA double helix, colored base pairs",
+    "author": "amansingh-afk",
+    "cols": 70,
+    "rows": 19,
+    "frames": 48,
     "targets": [
       "cli",
       "nvim"
@@ -126,6 +162,18 @@
     "cols": 50,
     "rows": 45,
     "frames": 9,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
+  },
+  {
+    "name": "globe",
+    "desc": "Spinning wireframe globe (braille)",
+    "author": "amansingh-afk",
+    "cols": 56,
+    "rows": 28,
+    "frames": 72,
     "targets": [
       "cli",
       "nvim"
@@ -185,6 +233,18 @@
     "author": "amansingh-afk",
     "cols": 64,
     "rows": 14,
+    "frames": 60,
+    "targets": [
+      "cli",
+      "nvim"
+    ]
+  },
+  {
+    "name": "neovim",
+    "desc": "Neovim logo glitching in",
+    "author": "amansingh-afk",
+    "cols": 52,
+    "rows": 24,
     "frames": 60,
     "targets": [
       "cli",

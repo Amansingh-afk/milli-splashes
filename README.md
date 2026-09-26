@@ -24,10 +24,13 @@ npx @amansingh-afk/milli play doomfire.milli
 
 ## Gallery
 
-26 splashes and counting.
+31 splashes and counting.
 
 <table>
-<tr><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/aiface.gif" width="400"/><br/><code>:MilliInstall aiface</code></td><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/attackontitan.gif" width="400"/><br/><code>:MilliInstall attackontitan</code></td></tr>
+<tr><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/neovim.gif" width="400"/><br/><code>:MilliInstall neovim</code></td><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/city-rain.gif" width="400"/><br/><code>:MilliInstall city-rain</code></td></tr>
+<tr><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/dna.gif" width="400"/><br/><code>:MilliInstall dna</code></td><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/globe.gif" width="400"/><br/><code>:MilliInstall globe</code></td></tr>
+<tr><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/coffee.gif" width="400"/><br/><code>:MilliInstall coffee</code></td><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/aiface.gif" width="400"/><br/><code>:MilliInstall aiface</code></td></tr>
+<tr><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/attackontitan.gif" width="400"/><br/><code>:MilliInstall attackontitan</code></td></tr>
 <tr><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/aurora.gif" width="400"/><br/><code>:MilliInstall aurora</code></td><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/badge.gif" width="400"/><br/><code>:MilliInstall badge</code></td></tr>
 <tr><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/cactus.gif" width="400"/><br/><code>:MilliInstall cactus</code></td><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/catwoman.gif" width="400"/><br/><code>:MilliInstall catwoman</code></td></tr>
 <tr><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/chrome.gif" width="400"/><br/><code>:MilliInstall chrome</code></td><td align="center"><img src="https://raw.githubusercontent.com/amansingh-afk/milli-splashes/main/previews/dancer.gif" width="400"/><br/><code>:MilliInstall dancer</code></td></tr>
@@ -75,6 +78,10 @@ Already have a `.lua` splash (legacy flow)? Still accepted: drop it in `splashes
 convert it with `scripts/lua2milli.mjs` so both targets stay covered.
 
 Splash files must be **pure data modules** (the exact output of `milli export -t lua`): no `require`, no function calls, no globals. `:MilliInstall` loads candidates in an empty Lua environment and rejects anything that isn't plain frame data.
+
+## Credits
+
+`neovim` uses the Neovim logo by Jason Long, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
 
 ## License
 
