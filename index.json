@@ -180,18 +180,6 @@
     ]
   },
   {
-    "name": "gojo",
-    "desc": "Gojo Satoru, Jujutsu Kaisen",
-    "author": "amansingh-afk",
-    "cols": 80,
-    "rows": 40,
-    "frames": 21,
-    "targets": [
-      "cli",
-      "nvim"
-    ]
-  },
-  {
     "name": "goose",
     "desc": "White goose in flight",
     "author": "amansingh-afk",
@@ -330,18 +318,6 @@
     "cols": 50,
     "rows": 19,
     "frames": 152,
-    "targets": [
-      "cli",
-      "nvim"
-    ]
-  },
-  {
-    "name": "skullring",
-    "desc": "Ring of skulls and snakes, by Nicolas Fong",
-    "author": "amansingh-afk",
-    "cols": 80,
-    "rows": 40,
-    "frames": 20,
     "targets": [
       "cli",
       "nvim"
